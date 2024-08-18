@@ -1,0 +1,16 @@
+:host {
+  display: flex;
+  border-radius: 40px;
+  background-color: #d9d9d9;
+  height: 13rem;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 450px) {
+  :host {
+    display: flex;
+    width: 100%;
+  }
+}
