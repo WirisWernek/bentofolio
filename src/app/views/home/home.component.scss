@@ -1,0 +1,15 @@
+:host {
+  display: block;
+}
+
+@media (max-width: 450px) {
+  section {
+    display: flex;
+    flex-direction: column;
+    div {
+      display: flex;
+      width: 100% !important;
+      flex-direction: column;
+    }
+  }
+}
