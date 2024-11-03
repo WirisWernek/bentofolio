@@ -1,0 +1,52 @@
+:host {
+  display: block;
+}
+
+input {
+  display: block;
+  border: none;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: transparent;
+  color: white;
+
+  &:focus {
+    outline: none;
+    border: none;
+  }
+}
+
+.list-group > *{
+	background-color: transparent !important;
+	border: none !important;
+	color: white;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.overflow-auto::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.overflow-auto {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+
+input::-webkit-input-placeholder {
+	color: red;
+ }
+ 
+ input:-moz-placeholder { /* Firefox 18- */
+	color: red;  
+ }
+ 
+ input::-moz-placeholder {  /* Firefox 19+ */
+	color: red;  
+ }
+ 
+ input:-ms-input-placeholder {  
+	color: red;  
+}

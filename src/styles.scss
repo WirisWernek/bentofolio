@@ -2,6 +2,7 @@
 
 /* Importing Bootstrap SCSS file. */
 @import "bootstrap/scss/bootstrap";
+@import "bootstrap-icons/font/bootstrap-icons.css";
 
 html,
 body {
@@ -12,12 +13,43 @@ body {
 
 html {
   background-color: #ffffff80;
-  padding: 1rem 2rem ;
+  padding: 0.6rem 1rem;
 }
 
 @media (max-width: 450px) {
-	html {
-		background-color: #ffffff80;
-		padding: 1rem 0.6rem ;
-	  }
+  html {
+    background-color: #ffffff80;
+    padding: 1rem 0.6rem;
+  }
 }
+
+@media (min-width: 1370px) {
+  html {
+    background-color: #ffffff80;
+    padding: 0.6rem 10%;
+  }
+}
+
+// custom styles
+.w-40 {
+  width: 40%;
+}
+
+.modal-content {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10.5px);
+  -webkit-backdrop-filter: blur(10.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.modal-header {
+  border-bottom: none !important;
+}
+
+// .modal-header,
+// .modal-footer,
+// .modal-body {
+//   background-color: transparent;
+// }

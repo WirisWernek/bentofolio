@@ -1,0 +1,15 @@
+<ul>
+  @for (tech of tecnologias$ | async; track $index) {
+  <li class="pill">
+    <span>{{ tech.name }}</span>
+  </li>
+  }
+</ul>
+
+<ul aria-hidden="true">
+	@for (tech of tecnologias$ | async; track $index) {
+	<li class="pill">
+	  <span>{{ tech.name }}</span>
+	</li>
+	}
+  </ul>

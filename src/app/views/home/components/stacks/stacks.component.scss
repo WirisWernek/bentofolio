@@ -1,11 +1,17 @@
 :host {
   display: flex;
-  border-radius: 40px;
-  background-color: #d9d9d9;
+  border-radius: 20px;
   height: 13rem;
   width: 50%;
   justify-content: center;
   align-items: center;
+  background-attachment: local;
+  color: white;
+  background-image: linear-gradient(90deg, #121212bb 0%, #12121299 100%),
+    url("/img/stack.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media (max-width: 450px) {

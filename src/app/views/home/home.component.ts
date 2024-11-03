@@ -9,6 +9,7 @@ import { ProjetosComponent } from './components/projetos/projetos.component';
 import { RecomendacoesComponent } from './components/recomendacoes/recomendacoes.component';
 import { ServicosComponent } from './components/servicos/servicos.component';
 import { StacksComponent } from './components/stacks/stacks.component';
+import { TecnologiasComponent } from "./components/tecnologias/tecnologias.component";
 
 @Component({
   selector: 'app-home',
@@ -24,7 +25,8 @@ import { StacksComponent } from './components/stacks/stacks.component';
     ProjetosComponent,
     AtualizacoesComponent,
     RecomendacoesComponent,
-  ],
+    TecnologiasComponent
+],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
 })
