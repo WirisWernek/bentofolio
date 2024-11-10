@@ -48,8 +48,13 @@ html {
   border-bottom: none !important;
 }
 
-// .modal-header,
-// .modal-footer,
-// .modal-body {
-//   background-color: transparent;
-// }
+.quick-action {
+	transition: all 0.3s;
+	cursor: pointer;
+	&:hover, &:focus {
+		background-color: #ffffff88;
+		transform: scale(1.045);
+		filter: blur(0);
+		z-index: 2;
+	}
+}

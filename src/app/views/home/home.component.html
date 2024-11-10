@@ -1,27 +1,27 @@
-<app-navbar class="mb-2"></app-navbar>
+<app-navbar class="mb-2" />
 
 <section class="d-flex mb-2 gap-2">
-  <app-cta></app-cta>
-  <app-about-me></app-about-me>
+	<app-cta />
+	<app-about-me />
 </section>
 
 <section class="d-flex mb-2 gap-2">
-  <app-servicos></app-servicos>
-  <app-links></app-links>
-  <app-stacks></app-stacks>
-  <app-atualizacoes></app-atualizacoes>
-  <app-recomendacoes></app-recomendacoes>
+	<app-servicos class="quick-action" />
+	<app-links class="quick-action" />
+	<app-stacks class="quick-action" />
+	<app-atualizacoes class="quick-action" />
+	<app-recomendacoes class="quick-action" />
 </section>
 
 <section class="d-flex mb-2 gap-2">
-	<app-tecnologias/>
+	<app-tecnologias />
 </section>
 
 <section class="d-flex mb-2 gap-2">
-  <app-projetos></app-projetos>
-  <app-projetos></app-projetos>
+	<app-projetos (click)="goToProjects()" tabindex />
+	<app-projetos (click)="goToProjects()" tabindex />
 </section>
 
 <!-- <section class="d-flex mb-2"></section> -->
 
-<app-footer></app-footer>
+<app-footer />
